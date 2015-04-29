@@ -1,0 +1,22 @@
+{
+    "name": "simusante/chat-bundle",
+    "keywords": ["Claroline", "Plugin"],
+    "homepage": "http://www.claroline.net",
+    "type": "claroline-plugin",
+    "license": "GPL-3.0+",
+	"authors": [
+        {
+            "name": "Alex",
+            "homepage": "http://loulou.fr/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.1",
+        "claroline/core-bundle": "~4.1",
+		"cunningsoft/chat-bundle": "0.4.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "Simusante\\Chat": "" }
+    },
+    "target-dir": "Simusante/ChatBundle"
+}
